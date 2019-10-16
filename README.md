@@ -1,6 +1,6 @@
 # Physiologically Based Pharmacokinetic Models for Pregnant Women
 
-Within this repository, we distribute the physiologically-based whole-body models for Pregnant Women published in [[1,2,3](#references)].
+Within this repository, we distribute the physiologically-based whole-body models for Pregnant Women published in [[1,2,3,4](#references)].
 
 The models comprise 27 compartments, including nine pregnancy-specific compartments as shown in the schema below.
 <p align="center">
@@ -8,10 +8,11 @@ The models comprise 27 compartments, including nine pregnancy-specific compartme
 </p>
 
 ## Repository files
-* The models are provided as ready-to-use MoBi and PK-Sim projects (subfolder _Models_)
+* The models are provided as ready-to-use MoBi and/or PK-Sim projects (subfolder _Models_)
   * _Cefazolin_, _Cefuroxime_ and _Cefradine_ model evaluation is described in [[3](#references)]
   * _Caffeine_, _Midazolam_, _Nifedipine_, _Metoprolol_, _Ondansetron_, _Granisetron_, _Diazepam_ and _Metronidazole_ model evaluation is described in [[1](#references)]
-
+*  _Acyclovir_ and _Emtricitabine_ model evaluation is described in [[4](#references)]
+  
 * _BuildingBlocks_ subfolder contains MoBi building block for spatial structure and passive transports. Those building blocks can be used in MoBi to build new substance models.
 
 ## HowTo
@@ -29,11 +30,11 @@ Steps 3 to 5 are performed in PK-Sim.
 5. Import (MoBi) pregnancy model in **pkml** format and combine it with created population building block as described in the [OSP Suite manual](https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/master/Open%20Systems%20Pharmacology%20Suite.pdf) (**Ch. 21.2 Importing Individual and Population Simulation**)
 
 ### How to create a new pregnancy model
-The procedure is desribed in a comprehensive [tutorial](https://doi.org/10.1002/psp4.12300).
+The procedure is described in a comprehensive [tutorial](https://doi.org/10.1002/psp4.12300).
 
 
 ## Version information
-The physiology is based on the PBPK model implemented in PK-Sim version 6.0. The MoBi project files were created in version 6.0.
+The physiology is based on the PBPK model implemented in PK-Sim version 6.0. The MoBi project files reported in [[1](#references)] and [[3](#references)] were created in version 6.0 and those reported in [[4](#references)] were created in version 7.2.0.
 
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
@@ -50,4 +51,6 @@ The model code is distributed under the [GPLv2 License](https://github.com/Open-
 [2][Dallmann A, Ince I, Meyer M, Willmann S, Eissing T, Hempel G. Gestation-Specific Changes in the Anatomy and Physiology of Healthy Pregnant Women: An Extended Repository of Model Parameters for Physiologically Based Pharmacokinetic Modeling in Pregnancy. Clin Pharmacokinet. 2017 Apr 11. doi: 10.1007/s40262-017-0539-z. [Epub ahead of print]](https://www.ncbi.nlm.nih.gov/pubmed/28401479)
 
 [3][Dallmann A, Ince I, Solodenko J, Meyer M, Willmann S, Eissing T, Hempel G. Physiologically Based Pharmacokinetic Modeling of Renally Cleared Drugs in Pregnant Women. Clin Pharmacokinet. 2017 Apr 8. doi: 10.1007/s40262-017-0538-0. [Epub ahead of print]](https://www.ncbi.nlm.nih.gov/pubmed/28391404)
+
+[4][Liu XI, Momper JD, Rakhmanina N, van den Anker JN, Green DJ, Burckart GJ, Best BM, Mirochnick M, Capparelli EV, Dallmann A. Physiologically Based Pharmacokinetic Models to Predict Maternal Pharmacokinetics and Fetal Exposure to Emtricitabine and Acyclovir. J Clin Pharmacol. 2019 Sep 6. doi: 10.1002/jcph.1515. [Epub ahead of print]](https://www.ncbi.nlm.nih.gov/pubmed/31489678)
 
