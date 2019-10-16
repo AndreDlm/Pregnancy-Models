@@ -9,9 +9,9 @@ The models comprise 27 compartments, including nine pregnancy-specific compartme
 
 ## Repository files
 * The models are provided as ready-to-use MoBi and/or PK-Sim projects (subfolder _Models_)
-  * _Cefazolin_, _Cefuroxime_ and _Cefradine_ model evaluation is described in [[3](#references)]
-  * _Caffeine_, _Midazolam_, _Nifedipine_, _Metoprolol_, _Ondansetron_, _Granisetron_, _Diazepam_ and _Metronidazole_ model evaluation is described in [[1](#references)]
-*  _Acyclovir_ and _Emtricitabine_ model evaluation is described in [[4](#references)]
+  * _Cefazolin_, _Cefuroxime_ and _Cefradine_ model evaluation is described in [[2](#references)]
+  * _Caffeine_, _Midazolam_, _Nifedipine_, _Metoprolol_, _Ondansetron_, _Granisetron_, _Diazepam_ and _Metronidazole_ model evaluation is described in [[3](#references)]
+  * _Acyclovir_ and _Emtricitabine_ model evaluation is described in [[4](#references)]
   
 * _BuildingBlocks_ subfolder contains MoBi building block for spatial structure and passive transports. Those building blocks can be used in MoBi to build new substance models.
 
@@ -34,7 +34,7 @@ The procedure is described in a comprehensive [tutorial](https://doi.org/10.1002
 
 
 ## Version information
-The physiology is based on the PBPK model implemented in PK-Sim version 6.0. The MoBi project files reported in [[1](#references)] and [[3](#references)] were created in version 6.0 and those reported in [[4](#references)] were created in version 7.2.0.
+The physiology is based on the PBPK model implemented in PK-Sim version 6.0. The MoBi project files reported in [[2](#references)] and [[3](#references)] were created in version 6.0 and those reported in [[4](#references)] were created in version 7.2.0.
 
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
@@ -46,11 +46,11 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
 
 ## References
-[1][Dallmann A, Ince I, Coboeken K, Eissing T, Hempel G. A Physiologically Based Pharmacokinetic Model for Pregnant Women to Predict the Pharmacokinetics of Drugs Metabolized Via Several Enzymatic Pathways. Clin Pharmacokinet. 2017 Sep 18. doi: 10.1007/s40262-017-0594-5. [Epub ahead of print]](https://www.ncbi.nlm.nih.gov/pubmed/28924743)
+[1][Dallmann A, Ince I, Meyer M, Willmann S, Eissing T, Hempel G. Gestation-Specific Changes in the Anatomy and Physiology of Healthy Pregnant Women: An Extended Repository of Model Parameters for Physiologically Based Pharmacokinetic Modeling in Pregnancy. Clin Pharmacokinet. 2017;56(11):1303-1330. doi: 10.1007/s40262-017-0539-z.](https://www.ncbi.nlm.nih.gov/pubmed/28401479)
 
-[2][Dallmann A, Ince I, Meyer M, Willmann S, Eissing T, Hempel G. Gestation-Specific Changes in the Anatomy and Physiology of Healthy Pregnant Women: An Extended Repository of Model Parameters for Physiologically Based Pharmacokinetic Modeling in Pregnancy. Clin Pharmacokinet. 2017 Apr 11. doi: 10.1007/s40262-017-0539-z. [Epub ahead of print]](https://www.ncbi.nlm.nih.gov/pubmed/28401479)
+[2][Dallmann A, Ince I, Solodenko J, Meyer M, Willmann S, Eissing T, Hempel G. Physiologically Based Pharmacokinetic Modeling of Renally Cleared Drugs in Pregnant Women. Clin Pharmacokinet. 2017;56(12):1525-1541. doi: 10.1007/s40262-017-0538-0.](https://www.ncbi.nlm.nih.gov/pubmed/28391404)
 
-[3][Dallmann A, Ince I, Solodenko J, Meyer M, Willmann S, Eissing T, Hempel G. Physiologically Based Pharmacokinetic Modeling of Renally Cleared Drugs in Pregnant Women. Clin Pharmacokinet. 2017 Apr 8. doi: 10.1007/s40262-017-0538-0. [Epub ahead of print]](https://www.ncbi.nlm.nih.gov/pubmed/28391404)
+[3][Dallmann A, Ince I, Coboeken K, Eissing T, Hempel G. A Physiologically Based Pharmacokinetic Model for Pregnant Women to Predict the Pharmacokinetics of Drugs Metabolized Via Several Enzymatic Pathways. Clin Pharmacokinet. 2018;57(6):749-768. doi: 10.1007/s40262-017-0594-5.](https://www.ncbi.nlm.nih.gov/pubmed/28924743)
 
 [4][Liu XI, Momper JD, Rakhmanina N, van den Anker JN, Green DJ, Burckart GJ, Best BM, Mirochnick M, Capparelli EV, Dallmann A. Physiologically Based Pharmacokinetic Models to Predict Maternal Pharmacokinetics and Fetal Exposure to Emtricitabine and Acyclovir. J Clin Pharmacol. 2019 Sep 6. doi: 10.1002/jcph.1515. [Epub ahead of print]](https://www.ncbi.nlm.nih.gov/pubmed/31489678)
 
